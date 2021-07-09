@@ -15,20 +15,6 @@ func contains(s []int, e interface{}) bool {
     return false
 }
 
-// func containsMultiple(s [][]int, e interface{}) bool {
-// 	var okay0 []bool
-// 	var okay bool
-//     for i,_ := range s {
-//         for j, b := range s[i] {
-// 			if s[i][j] == b {
-// 				okay0[j] = true
-// 			}
-// 			if okay
-// 		}
-//     }
-//     return false
-// }
-
 func check(i Player) bool {
 	switch {
 	case contains(i.Place, 1) && contains(i.Place, 2) && contains(i.Place, 3): // ---
